@@ -1,0 +1,25 @@
+body{
+    padding-left: 20px !important;
+    padding-top: 20px !important;
+    font-family: Arial !important;
+}
+
+.form-control{
+    width: 30% !important;
+}
+.table{
+    width: 80% !important;
+    text-align: justify !important;
+    padding-bottom: 10px !important;
+}
+#nome{
+    width: 30% !important;
+}
+
+h2{
+    font-size: 20px !important;
+    color: rgb(141, 141, 219) !important;
+}
+label{
+    color: black !important;
+}
