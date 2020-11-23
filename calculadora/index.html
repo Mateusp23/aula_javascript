@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividades</title>
+
+    <!-- Booststrap -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+
+    <script type="text/javascript" src="script.js"> </script>
+</head>
+<body>
+    
+    <div id="at1">
+        <h1>Calculadora:</h1>
+        <form action="#">
+            <input id="num1" type="text" placeholder="Digite o primeiro numero:"> <br>
+            <br>
+            <select name="operacao" id="operacao">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <br><br>
+            <input id="num2" type="text" placeholder="Digite o segundo numero: "> <br><br>
+            <button onclick="calculadora()">Calcular</button>
+        </form>   
+        <div id="resultado1"></div> 
+    </div>
+
+    <form action="#">
+        <Fieldset>
+            <legend><h2>Calcule o seu consumo de Energia:</h2></legend>
+            <label for="kwh">Kwh consumidos:</label>
+            <input type="text" id="kwh">
+            <br><br>
+            <label for="valor">Valor unitário do Kwh:</label>
+            <input type="text" id="valor">
+            <br><br>
+            <input type="button" onclick="calcule()" value="Calcular"/>
+            <label for="res"></label>
+            <div id="res2"></div>
+        </Fieldset>
+    </form>
+
+    <div id="maiornumero">
+        <h1>Calculo de maior numero:</h1>
+        <form action="#">
+            <input id="numeros" type="text" placeholder="digite os numeros: "> <br><br>
+            <button onclick="verificaMaior()">Calcular</button>
+        </form>
+        <p id="resultado2"></p>
+    </div>
+
+    <div id="maiorIdade">
+        <h1>Maior ou menor idade:</h1>
+        <form action="#">
+            <input id="idade" type="text" placeholder="digite as idades: "> <br><br>
+            <button onclick="maiorIdade()">Verificar</button>
+        </form>
+        <div id="resultado3">
+            <p id="idade1"></p>
+            <p id="idade2"></p>
+        </div>    
+    </div>
+
+
+</body>
+</html>
